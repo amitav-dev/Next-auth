@@ -7,7 +7,7 @@ async function Member() {
   const session = await getServerSession(options);
 
   if (!session) {
-    redirect("/api/auth/sigin?callbackUrl=/Member");
+    redirect("/api/auth/signin?callbackUrl=/Member");
   }
   return (
     <div>

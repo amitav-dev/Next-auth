@@ -1,7 +1,12 @@
+import UserForm from "@/app/(components)/UserForm";
 import React from "react";
 
 function addUser() {
-  return <div>addUser</div>;
+  return (
+    <div>
+      <UserForm />
+    </div>
+  );
 }
 
 export default addUser;
